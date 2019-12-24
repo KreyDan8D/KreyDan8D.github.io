@@ -1,11 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Page Title</title>
+<title>Home - The KreyHub</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="https://fonts.googleapis.com/css?family=Montserrat:900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+
 <style>
-* {
+  #mainTitle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 75px;
+    padding: none;
+    margin: 0px 0px 0px;
+  }
+
+  h2 {
+    font-family: 'Muli', sans-serif;
+  }
+
+  #welcome {
+    padding: 0px;
+    margin: 0px 0px 0px;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  * {
   box-sizing: border-box;
 }
 
@@ -19,7 +41,7 @@ body {
 .header {
   padding: 80px;
   text-align: center;
-  background: #1abc9c;
+  background: #ff6600;
   color: white;
 }
 
@@ -107,21 +129,31 @@ body {
     float: none;
     width: 100%;
   }
+
+  hr {
+    color: white;
+  }
+
+  p {
+    font-family: 'Open Sans', sans-serif;
+  }
 }
-</style>
+  </style>
 </head>
 <body>
 
 <div class="header">
-  <h1>My Website</h1>
-  <p>A website TOTALLY created by me.</p>
+  <h1 id="welcome">Welcome to</h1>
+  <h1 id="mainTitle">The KreyHub</h1>
+  <hr>
+  <p>A website created by me.</p>
 </div>
 
 <div class="navbar">
-  <a href="#">Link</a>
-  <a href="#">Link</a>
-  <a href="#">Link</a>
-  <a href="#" class="right">Link</a>
+  <a href="#">Home</a>
+  <a href="#">Design Portfolio</a>
+  <a href="#">A Filler Page</a>
+  <a href="#" class="right">A Page That's On the Other Side For Some Unknown Reason</a>
 </div>
 
 <div class="row">
